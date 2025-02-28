@@ -11,6 +11,11 @@
     "ios": {
       "supportsTablet": true
     },
+    "fonts": {
+      "Sora-Light": "./assets/fonts/Sora-Light.ttf",
+      "Sora-Regular": "./assets/fonts/Sora-Regular.ttf",
+      "Sora-SemiBold": "./assets/fonts/Sora-SemiBold.ttf"
+    },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
