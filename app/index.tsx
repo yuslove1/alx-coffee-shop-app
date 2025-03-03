@@ -2,13 +2,14 @@ import { Text, View, StyleSheet, SafeAreaView, ImageBackground, TouchableOpacity
 import {BlurView} from "expo-blur"
 import { windowHeight, windowWidth, HEROIMAGE } from "@/constant";
 import ToButton from "@/components/common/ToButton"
+import { router } from "expo-router";
 
 
 export default function Index() {
   return (
-    <View className="flex-1 bg-black">
-      <View className="h-[65%] relalative" style={{width:windowWidth}}>
-      <ImageBackground source={HEROIMAGE} style={{flex:1, width: windowWidth}} resizeMode="cover">
+    <SafeAreaView className="flex-1 bg-black" style={{width:windowWidth, height:windowHeight}}>
+      <View className="h-[65%] md:mx-auto w-full" >
+      <ImageBackground source={HEROIMAGE} style={{flex:1, width:'100%'}} resizeMode="cover">
       </ImageBackground>
       </View>
       <View className="items-center max-w-[85%] px-8 mx-auto">
@@ -22,12 +23,11 @@ export default function Index() {
 
   <ToButton 
   text="Get Stated"
-  textStyle="text-white
-   text-center text-lg py-5 font-bold"
-  btnStyle="bg-coffebrown w-[85%] mx-auto rounded-xl my-10"
+  textStyle="text-white text-center text-lg py-5 font-bold"
+  btnStyle="bg-coffebrown w-[85%]  mx-auto rounded-xl my-10"
+  onPress={() => router.push("/(tabs)")}
   />
-      
-    </View>
+    </SafeAreaView>
   );
 }
 
