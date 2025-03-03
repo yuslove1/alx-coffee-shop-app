@@ -30,7 +30,7 @@ Building this application provided valuable insights into React Native developme
 
 To run this project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/yuslove/alx-coffee-shop-app.git`
+1. Clone the repository: `git clone https://github.com/yuslove1/alx-coffee-shop-app.git`
 2. Navigate to the project directory: `cd alx-coffee-shop-app`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm expo start`
