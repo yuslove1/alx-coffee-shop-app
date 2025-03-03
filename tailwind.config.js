@@ -12,8 +12,17 @@ module.exports = {
               'Sora-SemiBold': ['Sora-SemiBold', 'sans-sarif'],
             },
             colors: {
-              'coffebrown': '#C67C4E'
-            }
+              'coffebrown': '#C67C4E',
+              'lightCoffee': '#EDD6C8',
+              'myBlack': '#313131',
+              'myGray': '#E3E3E3',
+              'ghostWhite': '#F9F2ED',
+              'textColor': '#A2A2A2',
+            },
+            padding: {
+              'mypadding': '1.5rem',
+              
+              }
     },
   },
   plugins: [],
